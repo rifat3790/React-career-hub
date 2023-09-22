@@ -13,7 +13,7 @@ const JobDetails = () => {
     // console.log(jobs,id);
 
     const handleApplyJob = () => {
-        saveJobApplication(id);
+        saveJobApplication(idInt);
         toast.success('🦄 Wow so easy!', {
             position: "top-center",
             autoClose: 5000,
